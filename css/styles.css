@@ -1,0 +1,59 @@
+/* Designed by Nima Owji - All Rights Reserved 
+Please don't use these codes without permission! */
+
+body {
+    background-color: #f5f7f8;
+}
+
+.max-width,
+footer {
+    width: 100%;
+}
+
+.nima-box-shadow,
+nav,
+.nima-div,
+.nima-div-gray,
+footer {
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nima-div,
+.nima-div-gray {
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.nima-div-gray {
+    background-color: #F8F9FA;
+}
+
+.bg-darkgray {
+    background-color: #f5f7f8;
+}
+
+.hidden,
+.err {
+    display: none;
+}
+
+.err {
+    color: red;
+}
+
+footer {
+    position: fixed !important;
+    bottom: 0px !important;
+}
+
+table tr {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
