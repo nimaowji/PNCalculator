@@ -5,6 +5,8 @@ $(document).ready(function() {
 
     $("#year").text((new Date).getFullYear());
 
+    var NightMode = false;
+
     $("#btnCalc").click(function() {
         if (validate()) {
             reset();
@@ -15,6 +17,20 @@ $(document).ready(function() {
     $("#btnReset").click(function() {
         $("#divTable").fadeOut();
         reset();
+    });
+
+    $("#cbShowAllNumbers").click(function() {
+        $(".NotPrime").fadeToggle();
+    });
+
+    $("#cbNightMode").click(function() {
+        NightMode = !NightMode;
+
+        if (NightMode) {
+            $("*").addClass(" bg-dark text-light");
+        } else {
+            $("*").removeClass(" bg-dark text-light");
+        }
     });
 
 });
@@ -93,6 +109,10 @@ function addRow(num, state) {
 
     var tr = document.createElement("tr");
     tr.classList += "result";
+
+    if (state == "❌") {
+        tr.classList += " NotPrime";
+    }
 
     var tdNum = document.createElement("td");
     var tdState = document.createElement("td");
