@@ -1,59 +1,67 @@
-/* Designed by Nima Owji - All Rights Reserved 
-Please don't use these codes without permission! */
-
 body {
-    background-color: #f5f7f8;
+  background-color: #f5f7f8;
 }
 
-.max-width,
-footer {
-    width: 100%;
+.max-width, footer {
+  width: 100%;
 }
 
-.nima-box-shadow,
-nav,
-.nima-div,
-.nima-div-gray,
-footer {
-    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+.nima-box-shadow, nav, .nima-div, .nima-div-gray, footer {
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
-.nima-div,
-.nima-div-gray {
-    padding: 12px;
-    border-radius: 7px;
+.nima-div, .nima-div-gray {
+  padding: 12px;
+  border-radius: 7px;
 }
 
 .nima-div-gray {
-    background-color: #F8F9FA;
+  background-color: #F8F9FA;
 }
 
 .bg-darkgray {
-    background-color: #f5f7f8;
+  background-color: #f5f7f8;
 }
 
-.hidden,
-.err {
-    display: none;
+.hidden, .err {
+  display: none;
 }
 
 .err {
-    color: red;
+  color: red;
 }
 
 footer {
-    position: fixed !important;
-    bottom: 0px !important;
+  position: fixed !important;
+  bottom: 0px !important;
 }
 
 table tr {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 a {
-    /*text-decoration: none;*/
+  text-decoration: none;
 }
 
+.NotPrime {
+  display: none;
+}
 
+.controls {
+  margin: 0px 6px;
+}
+
+.nima-div-gray.bg-dark {
+  border: 1px solid #fff;
+}
+
+nav.bg-dark {
+  border-bottom: 1px solid #fff;
+}
+
+footer.bg-dark {
+  border-top: 1px solid #fff;
+}
 /*# sourceMappingURL=styles.css.map */
